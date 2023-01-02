@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #f4ecef;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    margin-top: 10%;
+    background-color: #f7e2e9;
+    color:  #dd9ab4;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.7em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+button{
+     font-size: 1.5em;
+     font-weight: bold;
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: 1px solid rgba(0,0,0,0.5);
+     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+     color: #975469;
+     background-color: #ffc6dc;
+}
+
+button:hover{
+    background-color: #f4acc7;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+}
+
+.color-acento{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #975469;
+}
+
+header{
+     background-color: #f7e2e9;
+   
+}
+
+header .logo{
+    margin:0;
+    padding:25px 30px;
+    font-weight: bold;
+    color: #975469;
+    font-size: 1.6em;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:  #dd9ab4;
+}
+
+header a:hover{
+    color:#975469;
+}
+
+header .encabezado{
+   background-color:rgba(252, 250, 251, 0.758);
+}
+
+header .encabezado a{
+    margin-left: 100px;
+}
+
+.buscar{
+    position: absolute;
+    padding-top: 0;
+    padding-left: 1200px;
+
+}
+
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color:black;
+    outline: none;
+    border:1px solid silver;
+    border-radius: 30px;
+}
+
+.iconoBusqueda{
+    position: absolute;
+    top:0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: #ffc6dc;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+}
+
+#hero{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+#hero h1{
+    color:white;
+}
+
+#novedad .container{
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#presentacionProductos{
+    background-color: #ffc6dcc3;
+    color: white;
+    text-align: center;
+}
+
+#presentacionProductos .container{
+   padding: 150px 12px;
+}
+
+#presentacionProductos h2{
+    margin-top: 0;
+}
+
+#presentacionProductos p{
+    display: none;
+}
+
+#presentacionProductos .carta{
+    background-size: cover;
+    background-position: center center; 
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+   background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+,url("media/rostro.jpg");;
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+,url("OJOS/ojos1.jpg");;
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    )
+    ,url("LABIOS/labios2.jpg");;
+}
+
+
+
+.producto {
+    border:1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagenProducto{
+    object-fit: cover;
+}
+
+.nombreProducto{
+    text-align: center;
+    color: black;
+    font-size: medium;
+}
+
+.precioProducto{
+    color: black;
+    font-weight: bold;
+}
+
+.iconoProducto{
+    display: block;
+    margin-top: 10px 0;
+    color: #975469;
+}
+
+#registro1 {
+    padding: 100px;
+    text-align: center;
+}
+
+#registro1 .registro2 {
+    padding: 10px;
+}
+.serviciosClasesTabla{
+    padding-top: 160px;
+}
+.productosComprados {
+    border:1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-cesta{
+    padding-top: 130px;
+}
+
+.total{
+    padding-top: 0;
+    text-align: right; 
+    padding-right: 90px;
+}
+.dialogo h3{
+    font-size: 4em;
+    text-align: center;
+    line-height: 60px;
+    color: #975469;
+    
+}
+
+
+
+table {
+        border-collapse: separate;
+        border-spacing: 5px;
+        background-color: #b87f91;
+        }
+     
+td, th {
+        background-color: #f6edf0;
+        color: #975469;
+        padding: 20px;
+     }
+
+.perfilLaura{
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.perfilLaura h2{
+    color:#975469;
+}
+.perfilLaura h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color:#9c7986;
+}
+.perfilLaura p{
+    color:rgb(116, 98, 108);
+}
+
+.Contacto{
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.Contacto h2{
+    color:#975469;
+}
+.Contacto h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color:#9c7986;
+}
+.Contacto p{
+    color:#635158;
+    text-align: center;
+}
+
+   
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+       padding-right: 30px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #novedad .container{
+       display:flex;
+       justify-content: space-evenly;
+    }
+    #novedad .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #novedad h2{
+        margin-top: 0px;
+    }
+
+    #novedad .imagen-container{
+        background-image:url(novedad/novedad2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #presentacionProductos .productos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #presentacionProductos p{
+        display: block;
+    }
+
+    #presentacionProductos .carta{
+        padding: 15px;
+    }
+
+    .container-productos{
+        padding-top:160px;
+        display: grid;
+        grid-template-columns:repeat(4, 25%)
+        
+    }
+
+    .container-cesta{
+       
+        height: 200px;
+        width: 300px;
+    }
+    .container-cesta img{
+        float:left;
+    }
+    .total{
+        padding-top: 600px;
+    }
+   
+   
+}
