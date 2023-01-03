@@ -4,15 +4,15 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #f4ecef;
+    background-color: #f6e1ff;
 }
 
 footer {
     text-align: center;
     padding: 3px;
     margin-top: 10%;
-    background-color: #f7e2e9;
-    color:  #dd9ab4;
+    background-color: #e1b3f5;
+    color:  #a34dc5;
 }
 
 body{
@@ -43,12 +43,12 @@ button{
      border-radius: 10px;
      border: 1px solid rgba(0,0,0,0.5);
      box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-     color: #975469;
-     background-color: #ffc6dc;
+     color: #8f00c8;
+     background-color: #d998f5;
 }
 
 button:hover{
-    background-color: #f4acc7;
+    background-color: #c26de6 ;
 }
 
 
@@ -60,11 +60,11 @@ button:hover{
 .color-acento{
     text-decoration: none;
     font-weight: bold;
-    color:  #975469;
+    color:  #8f00c8;
 }
 
 header{
-     background-color: #f7e2e9;
+     background-color: #f0e2f7;
    
 }
 
@@ -72,7 +72,7 @@ header .logo{
     margin:0;
     padding:25px 30px;
     font-weight: bold;
-    color: #975469;
+    color: #8f00c8;
     font-size: 1.6em;
 }
 
@@ -94,15 +94,15 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color:  #dd9ab4;
+    color:  #d998f5;
 }
 
 header a:hover{
-    color:#975469;
+    color:#8f00c8;
 }
 
 header .encabezado{
-   background-color:rgba(252, 250, 251, 0.758);
+   background-color:rgba(252, 250, 252, 0.758);
 }
 
 header .encabezado a{
@@ -134,7 +134,7 @@ header .encabezado a{
     text-align: center;
     color: white;
     font-size: 20px;
-    background: #ffc6dc;
+    background: #d998f5;
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -171,7 +171,7 @@ header .encabezado a{
 }
 
 #presentacionProductos{
-    background-color: #ffc6dcc3;
+    background-color: #e1b3f5;
     color: white;
     text-align: center;
 }
@@ -249,7 +249,7 @@ header .encabezado a{
 .iconoProducto{
     display: block;
     margin-top: 10px 0;
-    color: #975469;
+    color: #8f00c8;
 }
 
 #registro1 {
@@ -260,6 +260,8 @@ header .encabezado a{
 #registro1 .registro2 {
     padding: 10px;
 }
+
+
 .serviciosClasesTabla{
     padding-top: 160px;
 }
@@ -282,7 +284,7 @@ header .encabezado a{
     font-size: 4em;
     text-align: center;
     line-height: 60px;
-    color: #975469;
+    color: #8f00c8;
     
 }
 
@@ -291,12 +293,12 @@ header .encabezado a{
 table {
         border-collapse: separate;
         border-spacing: 5px;
-        background-color: #b87f91;
+        background-color: #af7fb8;
         }
      
 td, th {
-        background-color: #f6edf0;
-        color: #975469;
+        background-color: #f4edf6;
+        color: #8f00c8;
         padding: 20px;
      }
 
@@ -305,16 +307,16 @@ td, th {
     padding-left: 100px;
 }
 .perfilLaura h2{
-    color:#975469;
+    color:#8f00c8;
 }
 .perfilLaura h3{
     padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
-    color:#9c7986;
+    color:#b882cf;
 }
 .perfilLaura p{
-    color:rgb(116, 98, 108);
+    color:rgb(112, 98, 116);
 }
 
 .Contacto{
@@ -322,16 +324,16 @@ td, th {
     padding-left: 100px;
 }
 .Contacto h2{
-    color:#975469;
+    color:#8f00c8;
 }
 .Contacto h3{
     padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
-    color:#9c7986;
+    color:#d998f5;
 }
 .Contacto p{
-    color:#635158;
+    color:#6f4a7e;
     text-align: center;
 }
 
